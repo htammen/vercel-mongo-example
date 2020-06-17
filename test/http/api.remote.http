@@ -1,0 +1,14 @@
+@protocol = http
+@hostname = my-mongodb-api-mqpb8xjxe.vercel.app
+@port = 80
+@host = {{hostname}}:{{port}}
+
+###
+GET {{protocol}}://{{host}}/api/companies.js HTTP/1.1
+
+###
+
+GET {{protocol}}://{{host}}/api/stories.ts HTTP/1.1
+
+
+

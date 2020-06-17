@@ -1,0 +1,12 @@
+@protocol = http
+@hostname = localhost
+@port = 3000
+@host = {{hostname}}:{{port}}
+
+###
+GET {{protocol}}://{{host}}/api/companies.js HTTP/1.1
+
+###
+
+GET {{protocol}}://{{host}}/api/stories.ts HTTP/1.1
+
