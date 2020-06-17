@@ -39,7 +39,7 @@ module.exports = async (req: NowRequest, res: NowResponse) => {
   const collection = await db.collection("stories");
 
   // Select the users collection from the database
-  const stories = await collection.find({}).limit(10).toArray();
+  const stories = await collection.find({}).limit(5).toArray();
 
   // Respond with a JSON string of all users in the collection
   res.status(200).json({ stories });
