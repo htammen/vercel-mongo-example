@@ -1,0 +1,17 @@
+{
+  "name": "vercel-mongo-example",
+  "version": "1.0.0",
+  "description": "Vercel mongodb example from the vercel guide \"Create and Deploy a MongoDB-Powered Node.js API with Vercel\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Helmut Tammen",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.9"
+  },
+  "devDependencies": {
+    "@vercel/node": "^1.7.1"
+  }
+}
