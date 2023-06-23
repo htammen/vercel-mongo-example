@@ -9,7 +9,7 @@
   "author": "Helmut Tammen",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^3.5.9"
+    "mongodb": "^3.7.4"
   },
   "devDependencies": {
     "@types/mongodb": "^3.5.22",
